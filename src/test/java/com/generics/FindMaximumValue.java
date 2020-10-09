@@ -30,6 +30,13 @@ public class FindMaximumValue {
          double maxValue = (double) findMaximum.MaximumFloatNum(3.3,2.2, 1.1);
         Assert.assertSame(3.3,maxValue);
     }
+    @Test
+    public void givenThreeFloats_WhenSecondPositionIsMax_ShouldReturnSameNumber()
+    {
+        FindMaximum findMaximum = new FindMaximum();
+        double maxValue = (double) findMaximum.MaximumFloatNum(2.2,3.3, 1.1);
+        Assert.assertSame(3.3,maxValue);
+    }
 
 
 
