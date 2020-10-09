@@ -8,6 +8,9 @@ public class FindMaximum {
     public double firstFloat = 0;
     public double secondFloat = 0;
     public double thirdFloat = 0;
+    public String firstString;
+    public String secondString;
+    public String thirdString;
 
     public Integer MaximumNumber(Integer firstNumber,Integer secondNumber,Integer thirdNumber) {
         if(firstNumber.compareTo(secondNumber) > 0 && firstNumber.compareTo(thirdNumber) > 0){
@@ -36,4 +39,16 @@ public class FindMaximum {
 
     }
 
+    public String MaximumString(String firstString,String secondString,String thirdString) {
+        if(firstString.compareTo(secondString) > 0){
+            return firstString;
+        }
+        else if(secondString.compareTo(thirdString) > 0){
+            return secondString;
+        }
+        else{
+            return thirdString;
+        }
+
+    }
 }

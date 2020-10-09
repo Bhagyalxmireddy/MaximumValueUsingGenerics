@@ -44,6 +44,13 @@ public class FindMaximumValue {
         double maxValue = (double) findMaximum.MaximumFloatNum(1.1f,2.2f, 3.3f);
         Assert.assertSame((double)3.3,maxValue);
     }
+    @Test
+    public void givenThreeStrings_WhenFirstPositionIsMax_ShouldReturnSameNumber()
+    {
+        FindMaximum findMaximum = new FindMaximum();
+        String maxValue = findMaximum.MaximumString("Peach","Apple","Banana");
+        Assert.assertEquals("Peach",maxValue);
+    }
 
 
 
