@@ -24,20 +24,20 @@ public class FindMaximumValue {
     @Test
     public void givenThreeFloats_WhenFirstPositionIsMax_ShouldReturnSameNumber()
     {
-         double maxValue = (double) FindMaximum.maximum(3.3,2.2, 1.1);
-        Assert.assertSame(3.3,maxValue);
+        Double maxValue =  FindMaximum.maximum(3.3,2.2, 1.1);
+        Assert.assertEquals( (Double) 3.3,maxValue);
     }
     @Test
     public void givenThreeFloats_WhenSecondPositionIsMax_ShouldReturnSameNumber()
     {
-        double maxValue = (double) FindMaximum.maximum(2.2,3.3, 1.1);
-        Assert.assertSame(3.3,maxValue);
+        Double maxValue =  FindMaximum.maximum(2.2,3.3, 1.1);
+        Assert.assertEquals((Double) 3.3,maxValue);
     }
     @Test
     public void givenThreeFloats_WhenThirdPositionIsMax_ShouldReturnSameNumber()
     {
-        Float maxValue = (float) FindMaximum.maximum(1.1f,2.2f, 3.3f);
-        Assert.assertSame( 3.3,maxValue);
+        Double maxValue =  FindMaximum.maximum(1.1,2.2, 3.3);
+        Assert.assertEquals( (Double) 3.3,maxValue);
     }
     @Test
     public void givenThreeStrings_WhenFirstPositionIsMax_ShouldReturnSameNumber()
