@@ -51,6 +51,13 @@ public class FindMaximumValue {
         String maxValue = findMaximum.MaximumString("Peach","Apple","Banana");
         Assert.assertEquals("Peach",maxValue);
     }
+    @Test
+    public void givenThreeStrings_WhenSecondPositionIsMax_ShouldReturnSameNumber()
+    {
+        FindMaximum findMaximum = new FindMaximum();
+        String maxValue = findMaximum.MaximumString("Apple","Peach","Banana");
+        Assert.assertEquals("Peach",maxValue);
+    }
 
 
 
