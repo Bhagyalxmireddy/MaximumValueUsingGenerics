@@ -8,9 +8,9 @@ public class FindMaximum {
     public double firstFloat = 0;
     public double secondFloat = 0;
     public double thirdFloat = 0;
-    public String firstString;
-    public String secondString;
-    public String thirdString;
+    public String firstString = null;
+    public String secondString = null;
+    public String thirdString = null;
 
     public Integer MaximumNumber(Integer firstNumber,Integer secondNumber,Integer thirdNumber) {
         if(firstNumber.compareTo(secondNumber) > 0 && firstNumber.compareTo(thirdNumber) > 0){
