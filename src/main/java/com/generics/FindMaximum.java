@@ -46,7 +46,8 @@ public class FindMaximum {
         else if(secondString.compareTo(thirdString) > 0){
             return secondString;
         }
-        else{
+        else
+            {
             return thirdString;
         }
 
