@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.generics.FindMaximumValue" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-10-09T17:53:33" hostname="DESKTOP-25DPEJS" time="0.019">
+<testsuite name="com.generics.FindMaximumValue" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-11T16:06:05" hostname="DESKTOP-25DPEJS" time="0.013">
   <properties/>
-  <testcase name="givenThreeFloats_WhenFirstPositionIsMax_ShouldReturnSameNumber" classname="com.generics.FindMaximumValue" time="0.012"/>
-  <testcase name="givenThreeFloats_WhenSecondPositionIsMax_ShouldReturnSameNumber" classname="com.generics.FindMaximumValue" time="0.0"/>
-  <testcase name="givenThreeStrings_WhenThirdPositionIsMax_ShouldReturnSameNumber" classname="com.generics.FindMaximumValue" time="0.0"/>
-  <testcase name="givenThreeStrings_WhenSecondPositionIsMax_ShouldReturnSameNumber" classname="com.generics.FindMaximumValue" time="0.0"/>
-  <testcase name="givenThreeIntegers_WhenThirdPositionIsMax_ShouldReturnSameNumber" classname="com.generics.FindMaximumValue" time="0.0"/>
-  <testcase name="givenThreeStrings_WhenFirstPositionIsMax_ShouldReturnSameNumber" classname="com.generics.FindMaximumValue" time="0.0"/>
-  <testcase name="givenThreeFloats_WhenThirdPositionIsMax_ShouldReturnSameNumber" classname="com.generics.FindMaximumValue" time="0.0"/>
-  <testcase name="givenThreeIntegers_WhenFirstPositionIsMax_ShouldReturnSameNumber" classname="com.generics.FindMaximumValue" time="0.0"/>
-  <testcase name="givenThreeIntegers_WhenSecondPositionIsMax_ShouldReturnSameNumber" classname="com.generics.FindMaximumValue" time="0.0"/>
+  <testcase name="givenOptinalIntegers_WhenFirstPositionIsMax_ShouldReturnSameNumber" classname="com.generics.FindMaximumValue" time="0.013"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

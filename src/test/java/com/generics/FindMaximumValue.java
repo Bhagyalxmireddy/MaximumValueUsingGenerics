@@ -57,7 +57,10 @@ public class FindMaximumValue {
         String maxValue = FindMaximum.maximum("Apple","Banana","Peach");
         Assert.assertEquals("Peach",maxValue);
     }
-
-
+    @Test
+    public void givenOptinalIntegers_WhenFirstPositionIsMax_ShouldReturnSameNumber(){
+        Integer maxValue = FindMaximum.maximum(9,6,3,2,31);
+        Assert.assertSame(9,maxValue);
+    }
 
 }
