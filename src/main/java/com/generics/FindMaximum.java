@@ -2,54 +2,16 @@ package com.generics;
 
 public class FindMaximum {
 
-    public Integer firstNumber = 0;
-    public Integer secondNumber = 0;
-    public Integer thirdNumber = 0;
-    public double firstFloat = 0;
-    public double secondFloat = 0;
-    public double thirdFloat = 0;
-    public String firstString = null;
-    public String secondString = null;
-    public String thirdString = null;
-
-    public Integer MaximumNumber(Integer firstNumber,Integer secondNumber,Integer thirdNumber) {
-        if(firstNumber.compareTo(secondNumber) > 0 && firstNumber.compareTo(thirdNumber) > 0){
-            return firstNumber;
+    public static <T extends Comparable<T>> T Maximum(T x,T y,T z){
+        T max = x;
+        if(y.compareTo(max) > 0){
+            max = y;
         }
-        else if(secondNumber.compareTo(thirdNumber) > 0) {
-            return secondNumber;
+        if(z.compareTo(max) > 0)
+        {
+            max = z;
         }
-        else{
-            return thirdNumber;
-        }
-
-    }
-
-    public double MaximumFloatNum(double firstFloat, double secondFloat, double thirdFloat) {
-
-        if(Double.compare(firstFloat,secondFloat)> 0){
-            return firstFloat;
-        }
-        else if(Double.compare(secondFloat,thirdFloat) > 0) {
-            return secondFloat;
-        }
-        else{
-            return thirdFloat;
-        }
-
-    }
-
-    public String MaximumString(String firstString,String secondString,String thirdString) {
-        if(firstString.compareTo(secondString) > 0){
-            return firstString;
-        }
-        else if(secondString.compareTo(thirdString) > 0){
-            return secondString;
-        }
-        else
-            {
-            return thirdString;
-        }
+        return max;
 
     }
 }
