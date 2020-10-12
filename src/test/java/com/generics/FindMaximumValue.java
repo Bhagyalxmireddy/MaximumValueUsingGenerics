@@ -59,7 +59,7 @@ public class FindMaximumValue {
     }
     @Test
     public void givenOptinalIntegers_WhenFirstPositionIsMax_ShouldReturnSameNumber(){
-        Integer maxValue = FindMaximum.maximum(9,6,3,2,31);
+        Integer maxValue = FindMaximum.maximum(9,6,3,2);
         Assert.assertSame(9,maxValue);
     }
 
