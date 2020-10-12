@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.generics.FindMaximumValue" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-09T09:07:27" hostname="DESKTOP-25DPEJS" time="0.009">
+<testsuite name="com.generics.FindMaximumValue" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-10-12T07:16:51" hostname="DESKTOP-25DPEJS" time="0.047">
   <properties/>
-  <testcase name="givenThreeIntegers_WhenThirdPositionIsMax_ShouldReturnSameNumber" classname="com.generics.FindMaximumValue" time="0.009"/>
+  <testcase name="givenThreeIntegers_WhenThirdPositionIsMax_ShouldReturnSameNumber" classname="com.generics.FindMaximumValue" time="0.031"/>
+  <testcase name="givenThreeIntegers_WhenFirstPositionIsMax_ShouldReturnSameNumber" classname="com.generics.FindMaximumValue" time="0.002"/>
+  <testcase name="givenThreeIntegers_WhenSecondPositionIsMax_ShouldReturnSameNumber" classname="com.generics.FindMaximumValue" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
