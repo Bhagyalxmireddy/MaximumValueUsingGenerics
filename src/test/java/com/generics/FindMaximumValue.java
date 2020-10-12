@@ -41,7 +41,7 @@ public class FindMaximumValue {
     public void givenThreeFloats_WhenThirdPositionIsMax_ShouldReturnSameNumber()
     {
         FindMaximum findMaximum = new FindMaximum();
-        Double maxValue =  findMaximum.MaximumFloatNum(1.1f,2.2f, 3.3f);
+        Double maxValue =  findMaximum.MaximumFloatNum(1.1,2.2, 3.3);
         Assert.assertEquals((Double) 3.3,maxValue);
     }
 
